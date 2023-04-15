@@ -7,13 +7,15 @@
 //     greeting, hello_world, print_operations, print_user_operations, print_variables,
 // };
 
-use functions::add;
+// use functions::add;
+// use structs::divide;
 
-use crate::functions::{add_generic, apply_twice, is_even, is_prime};
+// use crate::functions::{add_generic, apply_twice, is_even, is_prime};
 
 mod control_flow;
 mod functions;
 mod introduction;
+mod structs;
 fn main() {
     // L E S S O N  1
     // hello_world();
@@ -40,4 +42,8 @@ fn main() {
     // println!("{}", add_generic(1.1, 2.2));
     // println!("{}", add_generic(-1.1, 2.2));
     // println!("{}", apply_twice(|x| x + 1, 1));
+
+    // L E S S O N  4
+    // println!("{:?}", divide(1.0, 1.0));
+    // println!("{:?}", divide(1152.1, 0.0));
 }
