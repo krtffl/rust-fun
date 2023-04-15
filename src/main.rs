@@ -12,6 +12,11 @@
 
 // use crate::functions::{add_generic, apply_twice, is_even, is_prime};
 
+// use collections::sum_vec;
+
+// use crate::collections::{remove_duplicates, reverse_strings, sum_even_numbers};
+
+mod collections;
 mod control_flow;
 mod functions;
 mod introduction;
@@ -46,4 +51,13 @@ fn main() {
     // L E S S O N  4
     // println!("{:?}", divide(1.0, 1.0));
     // println!("{:?}", divide(1152.1, 0.0));
+
+    // L E S S O N  5
+    // println!("{}", sum_vec(vec![1, 2, 3, 4, 5]));
+    // println!("{:?}", remove_duplicates(vec![1, 2, 3, 4, 5, 5, 1, 2]));
+    // println!("{:?}", sum_even_numbers(vec![1, 2, 3, 4, 5, 5, 1, 2]));
+    // println!(
+    //     "{:?}",
+    //     reverse_strings(vec!["Hello".to_string(), "World".to_string()])
+    // );
 }
