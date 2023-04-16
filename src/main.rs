@@ -16,8 +16,13 @@
 
 // use crate::collections::{remove_duplicates, reverse_strings, sum_even_numbers};
 
+// use error_handling::first_character;
+
+// use crate::error_handling::{find_char, find_char_result, first_character_result, lenght_check};
+
 mod collections;
 mod control_flow;
+mod error_handling;
 mod functions;
 mod introduction;
 mod structs;
@@ -60,4 +65,16 @@ fn main() {
     //     "{:?}",
     //     reverse_strings(vec!["Hello".to_string(), "World".to_string()])
     // );
+
+    // L E S S O N  6
+    // println!("{:?}", first_character("hello pops".to_string()));
+    // println!("{:?}", first_character("".to_string()));
+    // println!("{:?}", find_char("i'm at position".to_string(), 'n'));
+    // println!("{:?}", lenght_check("hello".to_string()));
+    // println!("{:?}", lenght_check("hello world, what's up!".to_string()));
+    // println!("{:?}", lenght_check("".to_string()));
+    // println!("{:?}", first_character_result("hello pops".to_string()));
+    // println!("{:?}", first_character_result("".to_string()));
+    // println!("{:?}", find_char_result("i'm at position".to_string(), 'n'));
+    // println!("{:?}", find_char_result("i'm at position".to_string(), 'y'));
 }
